@@ -158,4 +158,3 @@ You should see the Frappe login page.
 Log in with these credentials to access your Frappe CRM.
 
 To stop the server, go back to the terminal running `bench start` and press `Ctrl + C`.
-```# datarhino-crm
