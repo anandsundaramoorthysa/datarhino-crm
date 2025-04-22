@@ -158,3 +158,35 @@ You should see the Frappe login page.
 Log in with these credentials to access your Frappe CRM.
 
 To stop the server, go back to the terminal running `bench start` and press `Ctrl + C`.
+
+## 10. Customize Branding (Name, Logo, Favicon)
+
+After accessing your Frappe CRM site, you can customize the branding elements like the name, logo, and favicon directly from the settings within the Frappe Desk.
+
+1.  **Log in to Frappe CRM:** Ensure you are logged into your Frappe CRM site (e.g., `http://datarhinocrm.localhost:8000`) as the **Administrator**.
+
+2.  **Access Website Settings from the Frappe Desk**
+    Navigate to any page within your CRM site (e.g., `http://datarhinocrm.localhost:8000/crm/leads/view`). Ensure you are logged in as the **Administrator**.
+    To customize branding, you need to access the site-wide settings:
+    * Click on the **main menu button** in the top-left corner of the Frappe Desk (this icon usually looks like three horizontal lines or a grid).
+    * When you click that you get options in a Dropdown. 
+    * Click on **"Settings"** in the dropdown.
+      
+3.  **Go to the Branding Section:**
+    * In the Settings, on the left-hand side of the Website Settings page, you will see a list of sections like "General", "Branding", "Home Page", etc.
+    * Click on the **"Branding"** section.
+
+4.  **Update Branding Information:** In the Branding section, you will find fields to customize your CRM's appearance:
+    * **Brand Name:** Enter the desired name (e.g., `Big Data Rhino CRM`). This name might appear in specific website views or footers, potentially complementing or overriding the "App Name" set in System 
+    Settings in certain contexts.
+    * **Brand Logo:** Click the "Upload" button next to this field to upload your logo image file. This logo will appear in the header of the website view.
+    * **Favicon:** Click the "Upload" button next to this field to upload your favicon image file (a small icon typically shown in the browser tab).
+
+5.  **Save the Changes:**
+    * Scroll to the top of the Website Settings page and click the **"Save"** button.
+
+6.  **Refresh to See Changes:**
+    * Refresh your web browser page (`F5` or `Ctrl+R` / `Cmd+R`). The new Brand Name, Logo, and Favicon should now be visible, particularly on any public-facing parts of your site if you enable website features, 
+    and sometimes in the desk header as well, depending on your theme configuration.
+
+    By updating these settings, you can give your local Frappe CRM instance the desired branding.
